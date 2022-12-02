@@ -5,8 +5,6 @@ const input = fs
   .split('\n')
   .map((x) => x.split(' '));
 
-console.log(input);
-
 const evaluateRound = (opMove, myMove) => {
   let movePoints;
   let outcomePoints;
