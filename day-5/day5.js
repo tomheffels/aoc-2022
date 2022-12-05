@@ -53,25 +53,16 @@ function moveBoxesFast() {
 }
 
 function getStacks() {
-  const stacks = {
-    1: [],
-    2: [],
-    3: [],
-    4: [],
-    5: [],
-    6: [],
-    7: [],
-    8: [],
-    9: []
-  };
+  const stacks = {};
 
   for (let i = 0; i < 8; i++) {
-    for (let j = 0; j < 36; j += 4) {
-      const row = input[i];
+    const row = input[i];
+    for (let j = 0; j < row.length; j += 4) {
       const block = row.substring(j, j + 4);
       const letter = block[1];
       const current = j / 4 + 1;
 
+      if (!stacks[current]) stacks[current] = [];
       if (letter !== ' ') stacks[current].unshift(letter);
     }
   }
