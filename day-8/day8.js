@@ -81,9 +81,11 @@ function getScenicScore(x, y) {
   const score = [left, right, top, bottom].reduce((totalScore, direction) => {
     const findTallerTree = direction.find((tree) => tree >= currentTree);
     const tallerTreeIndex = direction.indexOf(findTallerTree);
+
     const directionScore = findTallerTree
       ? tallerTreeIndex + 1
       : direction.length;
+
     return totalScore * directionScore;
   }, 1);
 
