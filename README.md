@@ -21,6 +21,6 @@
 | Day 10                                       | [](day-10/input.txt)     | [](day-10/day10.js)       |        |     | Day 23    | [](day-23/input.txt) | [](day-23/day23.js) |           |
 | Day 11                                       | [](day-11/input.txt)     | [](day-11/day11.js)       |        |     | Day 24    | [](day-24/input.txt) | [](day-24/day24.js) |           |
 | Day 12                                       | [](day-12/input.txt)     | [](day-12/day12.js)       |        |     | Day 25    | [](day-25/input.txt) | [](day-25/day25.js) |           |
-| Day 13                                       | [](day-13/input.txt)     | [](day-13/day13.js)       |        |     | **Total** |                      |                     | **16⭐️** |
+| Day 13                                       | [](day-13/input.txt)     | [](day-13/day13.js)       |        |     | **Total** |                      |                     | **18⭐️** |
 
 </div>
