@@ -18,15 +18,12 @@ function quantifyMonkeyBusiness(input, rounds, relief = true) {
       while (items.length) {
         // remove first item in array to inspect
         const item = items.shift();
-        // console.log(`initial worry level: ${item}`);
-
         // change worry level using operation
         let worryLevel = operation(item);
-        // console.log(`after op worry level: ${worryLevel}`);
-
         // if relieved, divide worry level by 3, rounded down
         if (relief) worryLevel = Math.floor(worryLevel / 3);
-        // else, channel master Sun-tzu
+        // else, channel Sun Tzu (the mathematician, not the guy who wrote The Art Of War)
+        // (which is a shame, because I had a number of inspiring quotes lined up)
         else worryLevel = channelSunTzu(worryLevel, monkeys);
 
         const { n, t, f } = test;
@@ -55,11 +52,15 @@ function quantifyMonkeyBusiness(input, rounds, relief = true) {
 }
 
 function channelSunTzu(worryLevel, monkeys) {
-  // get the product of all dividers
-  const productOfDividers = monkeys.reduce((x, m) => x * m.test.n, 1);
-  // return the worry level, modulo the product of all dividers
-  return worryLevel % productOfDividers;
+  // "If you know the enemy and know yourself, you need not fear the result of a hundred battles..."
+  // - Sun Tzu, The Art Of War (I know, wrong guy, quote still works)
 
+  // modulus is the product of all (relatively prime) divisors
+  const sunTzusModulus = monkeys.reduce((x, m) => x * m.test.n, 1);
+  // return the worry level, modulo the product of all divisors
+  return worryLevel % sunTzusModulus;
+
+  // this keeps the numbers smaller, while maintaining their divisibility
   // 📖 based on Chinese Remainder Theorem: https://en.wikipedia.org/wiki/Chinese_remainder_theorem
 }
 
