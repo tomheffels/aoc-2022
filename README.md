@@ -19,8 +19,8 @@
 | [Day 8](https://adventofcode.com/2022/day/8)   | [Input](day-8/input.txt)  | [Solution](day-8/day8.js)   | ⭐️⭐️ |     | Day 21    | [](day-21/input.txt) | [](day-21/day21.js) |           |
 | [Day 9](https://adventofcode.com/2022/day/9)   | [Input](day-9/input.txt)  | [Solution](day-9/day9.js)   | ⭐️⭐️ |     | Day 22    | [](day-22/input.txt) | [](day-22/day22.js) |           |
 | [Day 10](https://adventofcode.com/2022/day/10) | [Input](day-10/input.txt) | [Solution](day-10/day10.js) | ⭐️⭐️ |     | Day 23    | [](day-23/input.txt) | [](day-23/day23.js) |           |
-| Day 11                                         | [](day-11/input.txt)      | [](day-11/day11.js)         |        |     | Day 24    | [](day-24/input.txt) | [](day-24/day24.js) |           |
+| [Day 11](https://adventofcode.com/2022/day/11) | [Input](day-11/input.txt) | [Solution](day-11/day11.js) | ⭐️⭐️ |     | Day 24    | [](day-24/input.txt) | [](day-24/day24.js) |           |
 | Day 12                                         | [](day-12/input.txt)      | [](day-12/day12.js)         |        |     | Day 25    | [](day-25/input.txt) | [](day-25/day25.js) |           |
-| Day 13                                         | [](day-13/input.txt)      | [](day-13/day13.js)         |        |     | **Total** |                      |                     | **20⭐️** |
+| Day 13                                         | [](day-13/input.txt)      | [](day-13/day13.js)         |        |     | **Total** |                      |                     | **22⭐️** |
 
 </div>
